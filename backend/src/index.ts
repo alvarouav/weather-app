@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "API funcionando correctamente!" });
+  res.json({ message: "Hello world>!" });
 });
 
 app.get("/temperatures/calculateAvg", async (req: Request, res: Response) => {
@@ -21,5 +21,5 @@ app.get("/temperatures/calculateAvg", async (req: Request, res: Response) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Server running at http://localhost:${PORT}`);
 });

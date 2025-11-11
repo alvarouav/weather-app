@@ -8,7 +8,7 @@ import InvalidDatesError from "@/contexts/temperatures/domain/errors/invalidDate
 import TemperaturesNotFoundError from "@/contexts/temperatures/domain/errors/temperaturesNotFoundError";
 import temperaturesContainer from "@/controllers/temperatures/di/application.di";
 
-// THIS IS A QUICK APROACH IN FUTURE IS A MUST IMPLEMENT A SCHEMA VALIDATION FOR THE INPUTS
+// TODO: THIS IS A QUICK APROACH IN FUTURE IS A MUST IMPLEMENT A SCHEMA VALIDATION FOR THE INPUTS
 
 class CalculateTemperaturesAverageGetController {
   static async handle(req: any, res: any): Promise<void> {
