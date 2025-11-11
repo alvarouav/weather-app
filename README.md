@@ -65,4 +65,5 @@ Possible features to implement or extend in the system:
 - **Error handler for controllers:** Centralizes error handling and provides consistent API responses.
 - **Production version and scripts:** We will need scripts to build and deploy the application in a production environment.
 - **Integration with external repositories:** Connect additional services such as databases, third-party APIs, etc.
+- **Security enhancements:** Implement authentication, authorization, and data protection measures.
 
